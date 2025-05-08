@@ -1,0 +1,66 @@
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-image:url(wall.jpg);
+            display: flex;
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background: hsl(0, 0%, 100%,0.5);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(146, 33, 33, 0.2);
+            text-align: center;
+            width: 350px;
+        }
+        .main{
+            display: flex;
+            max-width: 900px;
+            background: white;
+            padding: 20px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+
+        }
+        h2 {
+            color: #6B0118;
+            font-family: 'Playfair Display', serif;
+        }
+        input, textarea{
+            width: 90%;
+            border: 2px solid #ae7783;
+            background-color: #FDF8F5;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            outline:none;
+        }
+        input,textarea:focus{
+            border-color: #6B0118;
+        }
+        
+        input[type="submit"] {
+            background-color: rgb(107, 0, 23,0.9);
+            border-radius: 20px;
+            color: #FFF;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            transition: 0.2s;
+            width: 100%;
+        }
+
+        input[type="submit"]:hover {
+            box-shadow: 0 8px 15px rgb(174, 119, 131,0.6);
+        }
+
+
+        .message {
+            margin-top: 10px;
+            color: red;
+        }
